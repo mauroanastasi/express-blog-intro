@@ -45,3 +45,6 @@ app.get(`/bacheca`, (req,res) => {
     ];
     res.json(post);
 })
+
+// configuro asset statici per visualizzazione immagini
+app.use(express.static(`puclic`));
