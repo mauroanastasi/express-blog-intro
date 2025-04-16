@@ -14,7 +14,7 @@ app.listen (port, () => {
 })
 
 // creo rotta bacheca che restituisca oggetto json con lista post
-app.get(`/post`, (req,res) => {
+app.get(`/bacheca`, (req,res) => {
     const post = [
         {
             title:"Ciambellone",
